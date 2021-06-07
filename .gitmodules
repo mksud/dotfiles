@@ -1,3 +1,9 @@
 [submodule "vim/pack/plugins/start/coc.nvim"]
 	path = vim/pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "vim/pack/fzf/start/fzf"]
+	path = vim/pack/fzf/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "vim/pack/fzf/start/fzf.vim"]
+	path = vim/pack/fzf/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
