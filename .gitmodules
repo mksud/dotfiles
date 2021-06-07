@@ -7,3 +7,24 @@
 [submodule "vim/pack/fzf/start/fzf.vim"]
 	path = vim/pack/fzf/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
+[submodule "vim/pack/lang/start/vim-jsonc"]
+	path = vim/pack/lang/start/vim-jsonc
+	url = https://github.com/kevinoid/vim-jsonc.git
+[submodule "vim/pack/plugins/start/vim-indent-object"]
+	path = vim/pack/plugins/start/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
+[submodule "vim/pack/plugins/start/vim-ReplaceWithRegister"]
+	path = vim/pack/plugins/start/vim-ReplaceWithRegister
+	url = https://github.com/inkarkat/vim-ReplaceWithRegister
+[submodule "vim/pack/plugins/start/commentary"]
+	path = vim/pack/plugins/start/commentary
+	url = https://tpope.io/vim/commentary.git
+[submodule "vim/pack/plugins/start/fugitive"]
+	path = vim/pack/plugins/start/fugitive
+	url = https://tpope.io/vim/fugitive.git
+[submodule "vim/pack/plugins/start/surround"]
+	path = vim/pack/plugins/start/surround
+	url = https://tpope.io/vim/surround.git
+[submodule "vim/pack/plugins/start/vim-airline"]
+	path = vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
