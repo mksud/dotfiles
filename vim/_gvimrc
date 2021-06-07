@@ -8,4 +8,4 @@
 	set guioptions-=T 
 
 " Colors
-	colorscheme molakkai
+	colorscheme molokai
