@@ -28,3 +28,6 @@
 [submodule "vim/.vim/pack/plugins/start/vim-airline"]
 	path = vim/.vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/.vim/pack/themes/start/molokai"]
+	path = vim/.vim/pack/themes/start/molokai
+	url = https://github.com/tomasr/molokai
