@@ -1,0 +1,11 @@
+" 1. Color, Look&Feel Configuration
+	set guifont=Consolas:h10
+
+" Full screen fix
+	autocmd GUIEnter * simalt ~x
+
+"toolbar
+	set guioptions-=T 
+
+" Colors
+	colorscheme molakkai
