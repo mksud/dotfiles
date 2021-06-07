@@ -1,30 +1,30 @@
-[submodule "vim/pack/plugins/start/coc.nvim"]
+[submodule "vim/.vim/pack/plugins/start/coc.nvim"]
 	path = vim/.vim/pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
-[submodule "vim/pack/fzf/start/fzf"]
+[submodule "vim/.vim/pack/fzf/start/fzf"]
 	path = vim/.vim/pack/fzf/start/fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule "vim/pack/fzf/start/fzf.vim"]
+[submodule "vim/.vim/pack/fzf/start/fzf.vim"]
 	path = vim/.vim/pack/fzf/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
-[submodule "vim/pack/lang/start/vim-jsonc"]
+[submodule "vim/.vim/pack/lang/start/vim-jsonc"]
 	path = vim/.vim/pack/lang/start/vim-jsonc
 	url = https://github.com/kevinoid/vim-jsonc.git
-[submodule "vim/pack/plugins/start/vim-indent-object"]
+[submodule "vim/.vim/pack/plugins/start/vim-indent-object"]
 	path = vim/.vim/pack/plugins/start/vim-indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object
-[submodule "vim/pack/plugins/start/vim-ReplaceWithRegister"]
+[submodule "vim/.vim/pack/plugins/start/vim-ReplaceWithRegister"]
 	path = vim/.vim/pack/plugins/start/vim-ReplaceWithRegister
 	url = https://github.com/inkarkat/vim-ReplaceWithRegister
-[submodule "vim/pack/plugins/start/commentary"]
+[submodule "vim/.vim/pack/plugins/start/commentary"]
 	path = vim/.vim/pack/plugins/start/commentary
 	url = https://tpope.io/vim/commentary.git
-[submodule "vim/pack/plugins/start/fugitive"]
+[submodule "vim/.vim/pack/plugins/start/fugitive"]
 	path = vim/.vim/pack/plugins/start/fugitive
 	url = https://tpope.io/vim/fugitive.git
-[submodule "vim/pack/plugins/start/surround"]
+[submodule "vim/.vim/pack/plugins/start/surround"]
 	path = vim/.vim/pack/plugins/start/surround
 	url = https://tpope.io/vim/surround.git
-[submodule "vim/pack/plugins/start/vim-airline"]
+[submodule "vim/.vim/pack/plugins/start/vim-airline"]
 	path = vim/.vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
