@@ -1,0 +1,9 @@
+# Add additional settings. Source this from .bashrc for eg. by adding the following commented out lines
+
+# include .bashrc_additional if it exists
+#if [ -f $HOME/.bashrc_additional ]; then
+#    . $HOME/.bashrc_additional
+#fi
+
+export FZF_DEFAULT_COMMAND="rg --files --color=never --hidden"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
