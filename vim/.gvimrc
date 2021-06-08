@@ -2,4 +2,7 @@
 	set guioptions-=T 
 
 " Colors
-	colorscheme molokai
+	colorscheme PaperColor
+
+" Background
+	set background=light
