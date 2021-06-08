@@ -31,3 +31,6 @@
 [submodule "vim/.vim/pack/themes/start/molokai"]
 	path = vim/.vim/pack/themes/start/molokai
 	url = https://github.com/tomasr/molokai
+[submodule "vim/.vim/pack/themes/start/papercolor-theme"]
+	path = vim/.vim/pack/themes/start/papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme
