@@ -36,7 +36,9 @@ if has('syntax') && has('eval')
 	packadd! matchit
 endif
 
-" Personal settings from here onwards
+" Add mouse support for terminal
+set mouse=a
+
 " Show buffers by default
 let g:airline#extensions#tabline#enabled = 1
 nnoremap <silent> <C-p> :FZF<CR>
