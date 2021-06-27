@@ -41,7 +41,14 @@ set mouse=a
 
 " Show buffers by default
 let g:airline#extensions#tabline#enabled = 1
-nnoremap <silent> <C-p> :FZF<CR>
+
+if has('win32')
+	:
+else
+	nnoremap <silent> <C-p> :FZF<CR>
+	packadd! fzf
+	packadd! fzf.vim
+endif
 
 " Copied from coc.vim
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some

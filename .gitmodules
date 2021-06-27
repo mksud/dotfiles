@@ -34,3 +34,6 @@
 [submodule "vim/.vim/pack/themes/start/papercolor-theme"]
 	path = vim/.vim/pack/themes/start/papercolor-theme
 	url = https://github.com/NLKNguyen/papercolor-theme
+[submodule "vim/.vim/pack/ctrlp/opt/ctrlp.vim"]
+	path = vim/.vim/pack/ctrlp/opt/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
