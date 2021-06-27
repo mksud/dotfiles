@@ -2,10 +2,10 @@
 	path = vim/.vim/pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 [submodule "vim/.vim/pack/fzf/start/fzf"]
-	path = vim/.vim/pack/fzf/start/fzf
+	path = vim/.vim/pack/fzf/opt/fzf
 	url = https://github.com/junegunn/fzf.git
 [submodule "vim/.vim/pack/fzf/start/fzf.vim"]
-	path = vim/.vim/pack/fzf/start/fzf.vim
+	path = vim/.vim/pack/fzf/opt/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 [submodule "vim/.vim/pack/lang/start/vim-jsonc"]
 	path = vim/.vim/pack/lang/start/vim-jsonc
