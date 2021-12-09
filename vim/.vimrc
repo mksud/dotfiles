@@ -53,6 +53,11 @@ else
 	packadd! fzf.vim
 endif
 
+" Swap files in the temp folder
+if has('win32') || has('win32unix')
+	set dir=$TEMP//
+endif
+
 " Copied from coc.vim
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
