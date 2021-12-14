@@ -1,1 +1,1 @@
-symlink or copy this folder to %LOCALAPPDATA%\nvim
+symlink or copy this folder to %LOCALAPPDATA%\nvim 
