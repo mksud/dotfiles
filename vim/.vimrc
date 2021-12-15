@@ -42,16 +42,16 @@ set mouse=a
 " Show buffers by default
 let g:airline#extensions#tabline#enabled = 1
 
-if has('win32') || has('win32unix')
-	packadd! ctrlp.vim
-	if executable('rg')
-		let g:ctrlp_user_command = 'rg --files --color=never --hidden %s'
-	endif
-else
+" if has('win32') || has('win32unix')
+" 	packadd! ctrlp.vim
+" 	if executable('rg')
+" 		let g:ctrlp_user_command = 'rg --files --color=never --hidden %s'
+" 	endif
+" else
 	nnoremap <silent> <C-p> :FZF<CR>
 	packadd! fzf
 	packadd! fzf.vim
-endif
+" endif
 
 " Swap files in the temp folder
 if has('win32') || has('win32unix')
