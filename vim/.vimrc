@@ -58,6 +58,9 @@ if has('win32') || has('win32unix')
 	set dir=$TEMP//
 endif
 
+" Make <leader>. repeat the last "change word" command.
+nnoremap <leader>. :let @/=@"<cr>/<cr>cgn<c-r>.<esc>
+
 " Copied from coc.vim
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
