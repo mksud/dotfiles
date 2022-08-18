@@ -40,7 +40,7 @@ endif
 set mouse=a
 
 " Show buffers by default
-let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#enabled = 1
 
 " if has('win32') || has('win32unix')
 " 	packadd! ctrlp.vim
