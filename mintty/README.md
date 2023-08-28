@@ -1,1 +1,1 @@
-symlink this folder to %APPDATA%\mintty
+copy .minttyrc to home folder
