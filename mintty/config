@@ -1,4 +1,3 @@
 AllowSetSelection=yes
-ThemeFile=LightNote.minttyrc
-ColourScheme=
 FontHeight=10
+CtrlShiftShortcuts=yes
