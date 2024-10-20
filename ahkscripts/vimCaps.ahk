@@ -1,32 +1,16 @@
-#NoEnv                      ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn                     ; Enable warnings to assist with detecting common errors.
 #SingleInstance FORCE       ; Skip invocation dialog box and silently replace previously executing instance of this script.
-SendMode Input              ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-SetCapsLockState, alwaysoff
-;================================================================================================
-;  CapsLock processing.  Must double tap CapsLock to toggle CapsLock mode on or off.
-;================================================================================================
-; Must double tap CapsLock to toggle CapsLock mode on or off.
-;CapsLock::
-;    KeyWait, CapsLock                                                   ; Wait forever until Capslock is released.
-;    KeyWait, CapsLock, D T0.2                                           ; ErrorLevel = 1 if CapsLock not down within 0.2 seconds.
-;    if ((ErrorLevel = 0) && (A_PriorKey = "CapsLock") )                 ; Is a double tap on CapsLock?
-;        {
-;        SetCapsLockState, % GetKeyState("CapsLock","T") ? "Off" : "On"  ; Toggle the state of CapsLock LED
-;        }
-;return
-;
-
+SetCapsLockState("AlwaysOff")
 
 ;================================================================================================
-; CapsLock sends escape instead
+; Remap copilot key to Right Control key
 ;================================================================================================
-CapsLock::Send, {ESC}
+<+<#f23::Send "{Blind}{LShift Up}{LWin Up}{RControl Down}"
+<+<#f23 Up::Send "{RControl Up}"
 
 ;================================================================================================
-; Hot keys with CapsLock modifier.  See https://autohotkey.com/docs/Hotkeys.htm#combo
+; Hot keys with CapsLock modifier for vim like arrow keys etc
 ;================================================================================================
 CapsLock & h:: Left 
 CapsLock & j:: Down
@@ -43,12 +27,13 @@ CapsLock & m:: Del
 ; Change caplock state by caplock + `
 ;================================================================================================
 CapsLock & `::
-GetKeyState, CapsLockState, CapsLock, T
-if CapsLockState = D
-    SetCapsLockState, AlwaysOff
-else
-    SetCapsLockState, AlwaysOn
-KeyWait, ``
-return
+{
+    CapsLockState := GetKeyState("CapsLock", "T")
+    if CapsLockState = 1
+        SetCapsLockState("AlwaysOff")
+    else
+        SetCapsLockState("AlwaysOn")
+    KeyWait("``")
+}
 
 
