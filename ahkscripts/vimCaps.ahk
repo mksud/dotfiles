@@ -4,10 +4,10 @@
 SetCapsLockState("AlwaysOff")
 
 ;================================================================================================
-; Remap copilot key to Right Control key
+; Remap copilot key to Control key
 ;================================================================================================
-<+<#f23::Send "{Blind}{LShift Up}{LWin Up}{RControl Down}"
-<+<#f23 Up::Send "{RControl Up}"
+<+<#f23::SendInput "{Blind}{LControl Down}{LShift Up}{LWin Up}"
+<+<#f23 Up::SendInput "{LControl Up}"
 
 ;================================================================================================
 ; Hot keys with CapsLock modifier for vim like arrow keys etc
